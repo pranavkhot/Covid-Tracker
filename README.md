@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 🦠 COVID-19 Tracker
+<p align="center"> <a href="https://covid-19-tracker-9a046.web.app"> <img src="https://github.com/user-attachments/assets/536e6574-36be-4f67-910a-ac929695db00" alt="COVID-19 Tracker Screenshot" width="100%"/> </a> </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**COVID-19 Tracker** is a React-based web application that provides real-time data and visualizations for global and regional COVID-19 statistics. Featuring interactive maps, tables, and charts, this application delivers a seamless and informative user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📜 Table of Contents
 
-### `npm start`
+1. Features  
+2. Tech Stack  
+3. File Descriptions
+4. Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- **Global Statistics**: Real-time worldwide COVID-19 stats, including cases, recoveries, and deaths.
+- **Regional Data**: Statistics by country, displayed in an interactive table.
+- **Interactive Map**: Visualizes COVID-19 hotspots using Leaflet.js.
+- **Dynamic Charts**: Historical data analysis using Chart.js.
+- **Thematic Styling**: Clean and responsive design optimized for all devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: Frontend framework for building dynamic components.
+- **Leaflet.js**: Library for creating interactive maps.
+- **Chart.js**: Data visualization library for generating graphs.
+- **Numeral.js**: For formatting numbers.
+- **Material UI**: UI components for a professional look.
+- **CSS**: Custom styles for enhanced user experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+## 🔍 Detailed File Descriptions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Core Files
 
-### `npm run eject`
+- **`App.js`**: Serves as the root component, managing layout and integrating all other components.
+- **`App.css`**: Contains global styles for a unified design.
+- **`index.js`**: Main entry point, rendering the React application to the DOM.
+- **`util.js`**: Includes helper functions for formatting numbers and sorting data.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Components
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **`InfoBox.js` / `InfoBox.css`**: Displays key COVID-19 statistics like cases, recoveries, and deaths. Each InfoBox is styled for interactivity and visual distinction.
+- **`Map.js` / `Map.css`**: Renders an interactive map using Leaflet.js, displaying country-specific COVID-19 data as markers.
+- **`Table.js` / `Table.css`**: Shows a scrollable table of country-specific stats, styled with alternating row colors and padding for readability.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🚀 Usage
 
-## Learn More
+1. **Access the Dashboard**  
+   - Open the application in your browser to explore global and regional COVID-19 statistics.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Global Overview**  
+   - View key metrics like total cases, recoveries, and deaths displayed in interactive InfoBoxes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Country Comparison**  
+   - Navigate the scrollable table to compare COVID-19 statistics for each country.
 
-### Code Splitting
+4. **Interactive Map**  
+   - Use the map to visualize COVID-19 hotspots and regional data. Hover over countries for detailed statistics.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. **Historical Insights**  
+   - Analyze trends with dynamic charts displaying historical data on cases, recoveries, and deaths.
 
-### Analyzing the Bundle Size
+6. **Responsive Design**  
+   - Access the app seamlessly on desktop, tablet, or mobile devices for a consistent user experience.
+  
+---
+### Stay safe and informed with the COVID-19 Tracker! 🌍🦠
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
